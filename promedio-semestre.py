@@ -30,6 +30,6 @@ for i in range(3, 4): # Se repite el mismo proceso que el ciclo for 1 y 2.
         semestre3.append(nota)
 prom3 = sum(semestre3)/len(semestre3)
 
-promedio_final = (prom1 + prom2 + prom3)/semestres
+promedio_final = round((prom1 + prom2 + prom3)/semestres)
 print(f'El promedio general de estudiante {nombre.capitalize()} es de: {promedio_final} puntos') 
     
